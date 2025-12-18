@@ -1,0 +1,61 @@
+/* Background putih */
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;   /* putih */
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* Card putih dengan border hitam tipis */
+.container {
+    background: #ffffff;   /* putih */
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    border: 2px solid #000000;   /* hitam */
+}
+
+/* Judul hitam */
+h2 {
+    color: #000000;   /* hitam */
+    margin-bottom: 20px;
+}
+
+/* Input border hitam */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #000000;  /* hitam */
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Tombol hitam */
+button {
+    padding: 12px 30px;
+    background: #000000;     /* hitam */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hover tombol: abu gelap → tetap hitam keabu dikit */
+button:hover {
+    background: #333333;       /* hitam sedikit lebih terang */
+}
+
+/* Hasil output hitam */
+.hasil {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;    /* hitam */
+    font-weight: bold;
+    line-height: 1.6em;
+}
